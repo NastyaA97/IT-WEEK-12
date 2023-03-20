@@ -25,7 +25,7 @@ function send(){
     chatComments.innerText = text;
 }
 
-send.addEventListener('click', SEND);
+send.addEventListener('click', send);
 
 
 
